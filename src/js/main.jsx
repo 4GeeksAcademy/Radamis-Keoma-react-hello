@@ -12,6 +12,7 @@ import '../styles/index.css'
 import Home from './components/Home';
 import NavBar from './components/NavBar';
 import JumBotron from './components/JumBotron';
+import FooterBar from './components/FooterBar';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -20,5 +21,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <JumBotron/>
     <Home/>
     </div>
+    <FooterBar/>
   </React.StrictMode>,
 )
